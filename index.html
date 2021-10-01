@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Weather | C1</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <header>
+      <h1>Open Weather App</h1>
+    </header>
+    <main>
+      <form id="form">
+        <input type="text" id="city" placeholder="Enter city name">
+      </form>
+
+      <!--<button id="getWeather">Get Weather</button>-->
+      <!--<button id="getLocation">Use Current Location</button>-->
+      <button class="btn waves-effect waves-light" id="getWeather" type="submit"
+        name="action">Search
+        <i class="material-icons right">cloud</i>
+      </button>
+
+      <button class="btn waves-effect waves-light" id="getLocation"
+        type="submit" name="action">Location
+        <i class="material-icons right">location_on</i>
+      </button>
+      <button class="btn waves-effect waves-light" id="getHourly" type="submit"
+        name="action">Hourly
+        <i class="material-icons right">cloud</i>
+      </button>
+      <button class="btn waves-effect waves-light" id="getDaily" type="submit"
+        name="action">Daily
+        <i class="material-icons right">cloud</i>
+      </button>
+      <!--<endsession button>-->
+      
+        
+      <div class="container" >
+        <!--<div class="row" id="row">
+          <div class="col s12 m4">
+            <div class="card ">
+              <div class="card-content white-text">
+                 results for weather data  
+                <div class="card-body">
+                  <h3 class="card-title">Weather Label</h3>
+                  <p class="card-text">High Temp Low Temp</p>
+                  <p class="card-text">HighFeels like</p>
+                  <p class="card-text">Pressure</p>
+                  <p class="card-text">Humidty</p>
+                  <p class="card-text">UV Index</p>
+                  <p class="card-text">Precipitation</p>
+                  <p class="card-text">Dew Point</p>
+                  <p class="card-text">Wind speed and direction</p>
+                  <p class="card-text">Sunrise</p>
+                  <p class="card-text">Sunset</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+        </div>
+          </main>
+
+
+          <script src="index.js" type="module"></script>
+        </body>
+      </html>
